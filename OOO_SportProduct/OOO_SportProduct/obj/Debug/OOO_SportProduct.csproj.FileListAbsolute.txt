@@ -1,0 +1,16 @@
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\bin\Debug\OOO_SportProduct.exe.config
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\bin\Debug\OOO_SportProduct.exe
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\bin\Debug\OOO_SportProduct.pdb
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct.csproj.AssemblyReference.cache
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct.csproj.SuggestedBindingRedirects.cache
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\MainWindow.g.cs
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\App.g.cs
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct_MarkupCompile.cache
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct_MarkupCompile.lref
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\MainWindow.baml
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct.g.resources
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct.Properties.Resources.resources
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct.csproj.GenerateResource.cache
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct.csproj.CoreCompileInputs.cache
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct.exe
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct.pdb
