@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\OOO_SportProduct",
+    "\\OOO_SportProduct\\OOO_SportProduct"
   ],
-  "SelectedNode": "\\C:\\D-drive-67390\\Files\\Sandbox\\DemoSportProduct",
+  "SelectedNode": "\\OOO_SportProduct\\OOO_SportProduct\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }
