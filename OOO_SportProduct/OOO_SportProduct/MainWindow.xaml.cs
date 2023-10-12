@@ -31,7 +31,17 @@ namespace OOO_SportProduct
             Classes.Helper.DB = new DBModel.DataSpaceSportProduct();
         }
 
-        private void login_Click()
+        private void login_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void gost_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void exit_Click(object sender, RoutedEventArgs e)
         {
 
         }
