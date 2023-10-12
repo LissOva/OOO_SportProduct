@@ -24,5 +24,16 @@ namespace OOO_SportProduct
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            //Подключение к БД
+            Classes.Helper.DB = new DBModel.DataSpaceSportProduct();
+        }
+
+        private void login_Click()
+        {
+
+        }
     }
 }

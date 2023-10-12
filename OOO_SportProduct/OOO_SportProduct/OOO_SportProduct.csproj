@@ -47,6 +47,8 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -73,6 +75,55 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Classes\Helper.cs" />
+    <Compile Include="DBModel\Category.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\Manufacturer.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\ModelSportProduct.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelSportProduct.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\ModelSportProduct.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\ModelSportProduct.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ModelSportProduct.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\Order.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\OrderProduct.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\Point.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\Product.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\Provider.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\Role.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\Status.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\Unit.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DBModel\User.cs">
+      <DependentUpon>ModelSportProduct.tt</DependentUpon>
+    </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -96,6 +147,13 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EntityDeploy Include="DBModel\ModelSportProduct.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ModelSportProduct.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="DBModel\ModelSportProduct.edmx.diagram">
+      <DependentUpon>ModelSportProduct.edmx</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -104,6 +162,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DBModel\ModelSportProduct.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ModelSportProduct.Context.cs</LastGenOutput>
+      <DependentUpon>ModelSportProduct.edmx</DependentUpon>
+    </Content>
+    <Content Include="DBModel\ModelSportProduct.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ModelSportProduct.edmx</DependentUpon>
+      <LastGenOutput>ModelSportProduct.cs</LastGenOutput>
+    </Content>
+    <Resource Include="Resources\picture.png" />
+    <Resource Include="Resources\icon.ico" />
+    <Resource Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="View\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

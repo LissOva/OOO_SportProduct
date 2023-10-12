@@ -19,3 +19,5 @@ C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduc
 C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\bin\Debug\EntityFramework.xml
 C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\bin\Debug\EntityFramework.SqlServer.xml
 C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct.csproj.CopyComplete
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct_Content.g.cs
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\App.baml
