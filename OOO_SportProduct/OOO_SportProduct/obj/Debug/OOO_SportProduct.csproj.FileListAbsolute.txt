@@ -21,3 +21,7 @@ C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduc
 C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct.csproj.CopyComplete
 C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\OOO_SportProduct_Content.g.cs
 C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\obj\Debug\App.baml
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\bin\Debug\EasyCaptcha.Wpf.dll
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\bin\Debug\EasyCaptcha.Wpf.pdb
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\bin\Debug\ru\EntityFramework.resources.dll
+C:\D-drive-67390\Files\Sandbox\DemoSportProduct\OOO_SportProduct\OOO_SportProduct\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
