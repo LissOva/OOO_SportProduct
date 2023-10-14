@@ -38,9 +38,11 @@
                 <RowDefinition Height="0.2*"/>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="1" Grid.Column="0" Text="Логин" Margin="20" HorizontalAlignment="Right" Style="{StaticResource Normal}"/>
-            <TextBox Grid.Row="1" Grid.Column="1" Margin="50 20" x:Name="Login"/>
+            <TextBox Grid.Row="1" Grid.Column="1" Margin="50 20 80 20" x:Name="Login"  Style="{StaticResource Normal}"/>
             <TextBlock Grid.Row="2" Grid.Column="0" Text="Пароль" Margin="20" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource Normal}"/>
-            <TextBox Grid.Row="2" Grid.Column="1" Margin="50 20" x:Name="Password"/>
+            <TextBox Grid.Row="2" Grid.Column="1" Margin="50 20 80 20" x:Name="PasswordText" Style="{StaticResource Normal}" Visibility="Hidden"/>
+            <PasswordBox Grid.Row="2" Grid.Column="1" Margin="50 20 80 20" x:Name="PasswordDot" Style="{StaticResource Normal}"/>
+            <CheckBox x:Name="visiblePassword"  Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" Margin="320 0 0 0" Checked="visiblePassword_Checked" Unchecked="visiblePassword_Unchecked"/>
             <Button Grid.Row="3" Grid.Column="0" x:Name="gost" Click="gost_Click" Margin="50 20" Background="#FFCC6600">
                 <TextBlock Text="Войти как гость" Style="{StaticResource Title}"/>
             </Button>

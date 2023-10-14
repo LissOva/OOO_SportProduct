@@ -39,7 +39,14 @@ namespace OOO_SportProduct
         {
             //Обработка введенных данных
             string login = Login.Text;
-            string password = Password.Text;
+            string password = "";
+            if (PasswordText.Visibility == Visibility.Visible) {
+                password = PasswordText.Text;
+            }
+            if (PasswordDot.Visibility == Visibility.Visible)
+            {
+                password = PasswordDot.Password;
+            }
             StringBuilder strMessage = new StringBuilder();
             if (login == "") strMessage.Append("Введите логин\n\n");
             if (password == "") strMessage.Append("Введите пароль\n\n");
@@ -74,6 +81,29 @@ namespace OOO_SportProduct
         private void gost_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+        /// <summary>
+        /// При отображении пароля
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void visiblePassword_Checked(object sender, RoutedEventArgs e)
+        {
+            PasswordText.Text = PasswordDot.Password.ToString(); 
+            PasswordText.Visibility = Visibility.Visible;
+            PasswordDot.Visibility = Visibility.Hidden;
+        }
+
+        /// <summary>
+        /// При скрытии пароля
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void visiblePassword_Unchecked(object sender, RoutedEventArgs e)
+        {
+            PasswordDot.Password = PasswordText.Text.ToString();
+            PasswordDot.Visibility = Visibility.Visible;
+            PasswordText.Visibility = Visibility.Hidden;
         }
     }
 }
