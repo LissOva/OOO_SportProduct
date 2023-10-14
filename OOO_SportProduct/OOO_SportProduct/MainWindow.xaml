@@ -6,8 +6,7 @@
         xmlns:local="clr-namespace:OOO_SportProduct"
         mc:Ignorable="d"
         Title="Авторизация" Height="450" Width="800" Icon="/Resources/icon.ico"
-        Loaded="Window_Loaded"
-        >
+        Loaded="Window_Loaded" MinHeight="450" MinWidth="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="80"/>
@@ -39,7 +38,7 @@
                 <RowDefinition Height="0.2*"/>
             </Grid.RowDefinitions>
             <TextBlock Grid.Row="1" Grid.Column="0" Text="Логин" Margin="20" HorizontalAlignment="Right" Style="{StaticResource Normal}"/>
-            <TextBox Grid.Row="1" Grid.Column="1" Margin="50 20" x:Name="Login" />
+            <TextBox Grid.Row="1" Grid.Column="1" Margin="50 20" x:Name="Login"/>
             <TextBlock Grid.Row="2" Grid.Column="0" Text="Пароль" Margin="20" HorizontalAlignment="Right" VerticalAlignment="Center" Style="{StaticResource Normal}"/>
             <TextBox Grid.Row="2" Grid.Column="1" Margin="50 20" x:Name="Password"/>
             <Button Grid.Row="3" Grid.Column="0" x:Name="gost" Click="gost_Click" Margin="50 20" Background="#FFCC6600">

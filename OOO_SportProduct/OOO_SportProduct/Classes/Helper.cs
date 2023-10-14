@@ -10,5 +10,7 @@ namespace OOO_SportProduct.Classes
     {
         //Объявление объекта связи с БД
         public static DBModel.DataSpaceSportProduct DB { get; set; }
+        //Пользователь
+        public static DBModel.User User { get; set; }
     }
 }
